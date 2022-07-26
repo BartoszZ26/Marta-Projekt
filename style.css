@@ -1,35 +1,49 @@
+@font-face {
+    font-family: 'LD Grotesk Bold';
+    src: url(LDGrotesk-BoldWide.woff);
+}
+@font-face {
+    font-family: 'LD Grotesk Medium';
+    src: url(LDGrotesk-Medium.woff);
+}
 body {
     margin: 0;
     background-image: url(images/bg.png);
-    background-size: cover;
-    font-size: 1.3rem;
+    background-size: 100% 999%;
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
     color: white;
+    font-family: 'LD Grotesk Medium', 'LD Grotesk Bold', Verdana, Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'LD Grotesk Bold', 'LD Grotesk Medium', Verdana, Arial, Helvetica, sans-serif;
 }
 .logo {
-    width: 150px;
+    width: 300px;
 }
-@media screen and (min-width: 1267px) {
+@media screen and (min-width: 1289px) {
     nav {
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 nav a.button {
-    font-size: 1.3rem;
     margin: 0.5rem;
     text-align: center;
     background-color: white;
-    padding: 0.6rem 5rem;
+    padding: 0.5rem 4rem;
     border: 2px solid black;
     text-decoration: none;
     color: gray;
     flex-basis: 100px;
 }
 }
-@media screen and (max-width: 1266px) {
+@media screen and (max-width: 1288px) {
     nav {
         width: 100%;
         height: 20%;
@@ -37,9 +51,10 @@ nav a.button {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
     }
     nav a.button {
-        font-size: 1.3rem;
         margin: 0.5rem;
         text-align: center;
         background-color: white;
@@ -57,13 +72,13 @@ nav a.button {
 }
 h2 {
     margin: 0;
+    font-weight: 700;
 }
 ul {
     margin: 0;
 }
 @media screen and (min-width: 1267px) {
 section {
-    font-size: 1.3rem;
     color: white;
     margin-left: 20%;
     margin-right: 20%;
