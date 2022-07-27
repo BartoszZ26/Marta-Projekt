@@ -41,6 +41,10 @@ nav a.button {
     text-decoration: none;
     color: gray;
     flex-basis: 100px;
+    transition: background-color 0.2s ease-in;
+}
+nav a.button:hover {
+    background-color: #FFE4BC;
 }
 }
 @media screen and (max-width: 1288px) {
@@ -114,4 +118,50 @@ figcaption {
 }
 figcaption h3 {
     font-size: 3rem;
+}
+div .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 0;
+    width: 80%;
+    height: 360px;
+    margin-top: 1.5rem;
+}
+article:nth-of-type(2) {
+    margin-bottom: 1rem;
+}
+img#social-media-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 0;
+}
+.social-media figcaption {
+    color: gray;
+    margin: 0;
+}
+p#social-media-caption {
+    margin-left: 1rem;
+    color: gray;
+}
+p#social-media-caption a#instagram {
+    text-decoration: none;
+    color: #f72585
+}
+p#social-media-caption a#facebook {
+    text-decoration: none;
+    color: #1877f2
+}
+.curator-io {
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 60%;
+    height: 250px;
 }
