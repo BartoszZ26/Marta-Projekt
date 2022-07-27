@@ -102,13 +102,11 @@ section {
         margin-right: 5%;
 }
 figure {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 }
-
 figure img {
     transform: scale(0.7);
 }
