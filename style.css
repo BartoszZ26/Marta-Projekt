@@ -103,8 +103,8 @@ section {
 }
 figure {
     margin: 0;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
