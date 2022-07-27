@@ -97,10 +97,10 @@ figure {
 }
 }
 @media screen and (max-width: 1266px) {
-    section {
+section {
         margin-left: 5%;
         margin-right: 5%;
-    }
+}
 figure {
     margin: 0;
     flex-direction: column;
