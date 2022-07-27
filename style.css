@@ -7,7 +7,7 @@
     src: url(LDGrotesk-Medium.woff);
 }
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin: 0;
     background-image: url(images/bg.png);
     background-size: 100% 999%;
