@@ -7,6 +7,7 @@
     src: url(LDGrotesk-Medium.woff);
 }
 body {
+    overflow-x: hidden;
     margin: 0;
     background-image: url(images/bg.png);
     background-size: 100% 999%;
@@ -41,7 +42,7 @@ nav a.button {
     text-decoration: none;
     color: gray;
     flex-basis: 100px;
-    transition: background-color 0.2s ease-in;
+    transition: background-color 0.15s ease-out;
 }
 nav a.button:hover {
     background-color: #FFE4BC;
@@ -117,7 +118,7 @@ figcaption {
     padding: 0rem 1rem;
 }
 figcaption h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 div .social-media {
     display: flex;
